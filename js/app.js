@@ -22,7 +22,6 @@ $(document).ready( function() {
 	$('#list').on('click', '.done', function(e){
 		e.preventDefault();
 		$('li').last().toggleClass("new cross");
-		$(this).remove();
 	});
 
 	//Removing Item
