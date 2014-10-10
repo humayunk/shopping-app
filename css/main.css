@@ -1,0 +1,112 @@
+html { 
+  background: url("http://i.imgur.com/5nehizL.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	width:600px;
+	height:1000px;
+	margin: 0 auto;
+	font-family: Helvetica, serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bolder;
+	margin-bottom: 10px;
+}
+
+li {
+	width: 200px;
+	display: inline-block;
+	margin-left: 150px;
+}
+
+.header img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.list-area {
+	background-color: #84fca2; /*top colour*/
+	background-image: -webkit-linear-gradient(top, #84fca2, #5bf0d8);
+	background-image:    -moz-linear-gradient(top, #84fca2, #5bf0d8);
+	background-image:      -o-linear-gradient(top, #84fca2, #5bf0d8);
+	background-image:         linear-gradient(to bottom, #84fca2, #5bf0d8);
+	width: 455px;
+	height: 300px;
+	display: block;
+	margin: 0 auto;
+
+}
+
+
+#add-todo {
+	width: 300px;
+	height:25px;
+	padding: 5px;
+	background-color: #708A6C;
+	opacity: 0.6;
+	margin-left: 50px;
+	border: none;
+	margin-top: 20px;
+	margin-right: 0;
+}
+
+#add-button {
+	width: 50px;
+	height: 35px;
+	padding: 5px;
+	color: #fff;
+	background-color: #1f9f9a;
+	vertical-align: middle;
+	border: none;
+	margin-left: 0;
+
+}
+
+#list li {
+	margin-left: 50px;
+	margin-top: 10px;
+	background-color: #F2F3F1;
+	border: 1px solid #fff;
+	width: 250px;
+	height: 20px;
+	vertical-align: middle;
+	padding: 10px;
+	color: #2C2C2C;
+}
+
+.done {
+	width: 50px;
+	height: 42px;
+	color: #fff;
+	background-color: #07b336;
+	border: none;
+	margin-left: 0;
+	vertical-align: bottom;
+}
+
+.remove {
+	width: 50px;
+	height: 42px;
+	color: #fff;
+	background-color: #fa3534;
+	vertical-align: middle;
+	border: none;
+	margin-left: 0;
+	vertical-align: bottom;
+}
+
+.cross {
+	text-decoration: line-through;
+}
+
+.new {
+	color:#2C2C2C;
+}
