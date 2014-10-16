@@ -26,10 +26,8 @@ $(document).ready( function() {
 
 	//Removing Item
 
-	$('#list').on('click', '.remove', function(e){
-		e.preventDefault();
-		$('li').last().remove();
-		$(this).remove();
+	$('#list').on('click', '.remove', function(){
+		$(this).closest('li').remove();
 		$('.done').remove();
 	});
 
