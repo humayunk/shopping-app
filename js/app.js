@@ -11,7 +11,7 @@ $(document).ready( function() {
 		} 
 
 		else {
-				$('#list').append('<li class="new">' + $('input#add-todo').val() + '</li>' + '<button class="done">Got It</button>' + '<button class="remove">Trash</button>');
+				$('#list').append('<li class="new">' + $('input#add-todo').val() + '<button class="done">Got It</button>' + '<button class="remove">Trash</button>' + '</li>');
 				$('input#add-todo').val("");
 		
 		}
@@ -19,16 +19,14 @@ $(document).ready( function() {
 
 	//Crossing Item Off
 
-	$('#list').on('click', '.done', function(e){
-		e.preventDefault();
-		$('li').last().toggleClass("new cross");
+	$('#list').on('click', '.done', function(){
+		$(this).closest('li').toggleClass("new cross");
 	});
 
 	//Removing Item
 
 	$('#list').on('click', '.remove', function(){
 		$(this).closest('li').remove();
-		$('.done').remove();
 	});
 
 });

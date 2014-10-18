@@ -39,9 +39,10 @@ li {
 	background-image:      -o-linear-gradient(top, #84fca2, #5bf0d8);
 	background-image:         linear-gradient(to bottom, #84fca2, #5bf0d8);
 	width: 455px;
-	height: 300px;
+	min-height: 300px;
 	display: block;
 	margin: 0 auto;
+	padding-bottom: 20px;
 
 }
 
@@ -74,12 +75,11 @@ li {
 	margin-left: 50px;
 	margin-top: 10px;
 	background-color: #F2F3F1;
-	border: 1px solid #fff;
-	width: 250px;
-	height: 20px;
-	vertical-align: middle;
-	padding: 10px;
+	width: 355px;
+	height: 42px;
 	color: #2C2C2C;
+	padding-left: 10px;
+	padding-right: 0;
 }
 
 .done {
@@ -89,7 +89,8 @@ li {
 	background-color: #07b336;
 	border: none;
 	margin-left: 0;
-	vertical-align: bottom;
+	vertical-align: middle;
+	margin-left: 224px;
 }
 
 .remove {
@@ -100,7 +101,6 @@ li {
 	vertical-align: middle;
 	border: none;
 	margin-left: 0;
-	vertical-align: bottom;
 }
 
 .cross {
